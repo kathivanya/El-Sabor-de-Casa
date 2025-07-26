@@ -85,3 +85,27 @@ body{
     font-size: 18px;
 
 }
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background-color: orange;
+    padding:20px;
+    border-radius:5px;
+    width: 300px;
+    height: 400px;
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px;
+    
+}
