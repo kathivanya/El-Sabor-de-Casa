@@ -5,7 +5,7 @@ body{
 
 *{
     margin: 0;
-    padding: 0px;
+    padding: 0;
 
 }
 
@@ -37,13 +37,14 @@ body{
 
 .nav-links a:hover{
     font-weight: bold;
-    font-weight: bold;
     font-size: 20px;
+    text-decoration: underline;
+    color: white;
 }
 
 .hero{
-    background: 
-    linear-gradient( rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),
+    background:
+    linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
     url(images/restaurante.jpg) center/cover no-repeat;
     height: 70vh;
     display: flex;
@@ -74,12 +75,14 @@ body{
     height: 30px;
     padding:  0 15px;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    font-size: 15px;
     cursor: pointer;
     font-weight: bold;
 }
 
-.hero-content a:hover{
+.hero-content button:hover{
     color: white;
     height: 45px;
     font-size: 18px;
@@ -107,5 +110,5 @@ body{
 .card img{
     width: 100%;
     border-radius: 5px;
-    
+
 }
