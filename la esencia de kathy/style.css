@@ -1,0 +1,115 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darksalmon;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    display: flex;
+    background-color: gold;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.logo{
+    width: 250px;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.nav-link{
+    color: darksalmon;
+    text-decoration: none;
+
+}
+
+.nav-link a:hover{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+
+}
+
+.hero{
+    background: linear-gradient (rgba(133, 12, 12, 0.5)),
+    url(images/instruments.png)center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.hero-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.hero-content p{
+    font-size: 18px;
+}
+
+.hero-content a button{
+    background-color: orange;
+    height: 30px;
+    padding:  0 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-content button:hover{
+    color: white;
+    height: 45px;
+    font-size: 18px;
+
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background-color: orange;
+    padding:20px;
+    border-radius:5px;
+    width: 300px;
+    height: 400px;
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px;
+
+}
